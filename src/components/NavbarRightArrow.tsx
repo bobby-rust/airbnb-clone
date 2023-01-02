@@ -11,7 +11,7 @@ function NavbarRightArrow(props: any) {
     };
     return (
         <div className={className} style={{ ...arrowStyles }} onClick={onClick}>
-            <div className='arrow-wrapper'>
+            <div className='arrow-wrapper arrow-wrapper-right'>
                 <svg
                     viewBox='0 0 32 32'
                     xmlns='http://www.w3.org/2000/svg'

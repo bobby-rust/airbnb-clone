@@ -3,31 +3,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    position: sticky;
+    top: calc(80px - 20px, 0px);
+    width: 100%;
+    z-index: 9;
+    height: 98px;
+    contain: size style layout;
 }
-
-
-
 
 .filter-button {
     height: 50px;
     width: 90px;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #dddddd;
     border-radius: 12px;
     background-color: white;
-    font-family: 'Figtree';
+    font-family: "Figtree";
     font-weight: bold;
     font-size: 12px;
-}
-.filter-button-container {
-    width: 15%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.filter-button-container {
+    width: 10%;
+    display: flex;
+    justify-content: end;
     align-items: center;
 }
 
 .slider-container-container {
-    width: 85%;
+    width: 90%;
     min-width: 85%;
 }
 
@@ -49,11 +56,11 @@
     background-color: #717171;
     opacity: 0;
     transition: all 0.2s ease;
-    transform: translateY(15px)
+    transform: translateY(15px);
 }
 
 .navbar-icon:hover img,
-.navbar-icon:hover  {
+.navbar-icon:hover {
     cursor: pointer;
     color: black;
     opacity: 1;
@@ -67,17 +74,16 @@
     /* width: 100px; */
     margin-top: 15px;
     white-space: nowrap;
-        /* margin-right: 20px; */
-        justify-content: center;
-        align-content: center;
-        display: flex;
-        font-weight: bold;
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-content: center;
+    display: flex;
 }
 
 .navbar-title-container {
     display: flex;
-        justify-content: center;
-            align-content: center;
+    justify-content: center;
+    align-content: center;
 }
 .navbar-icon {
     display: flex;
@@ -86,8 +92,8 @@
     align-items: center;
     flex-wrap: nowrap;
     /* margin-right: 40px; */
-                color: #717171;
-                height: 100px;
+    color: #717171;
+    height: 100px;
 }
 
 /* .slick-list {
@@ -114,16 +120,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     height: 28px;
     width: 28px;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-    border: 0.5px solid rgb(0 0 0 / 0.3);
+    border: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
     border-radius: 50%;
-    transform: translateY(-35px)
+    transform: translateY(-30px);
+}
+
+.arrow-wrapper-right {
+    margin: 0 20px 0 20px;
 }
 
 .arrow-wrapper:hover {
-    transform: scale(1.04) translateY(-34px);
+    transform: scale(1.04) translateY(-30px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
 }
 
 .slick-arrow {
