@@ -1,0 +1,61 @@
+.card {
+    height: 300px;
+    width: 300px;
+}
+
+.listings-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+}
+
+.card-content-container {
+    display: grid;
+    margin-top: 15px;
+    grid-template-columns: 1fr 0.2fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 2px;
+    line-height: 19px;
+    font-size: 15px;
+    float: left;
+}
+
+.card-location {
+    grid-row: 1;
+    grid-column: 1;
+    font-weight: bold;
+}
+
+.card-rating {
+    width: 47px;
+    display: flex;
+    grid-row: 1;
+    grid-column: 2;
+    align-items: center;
+}
+
+.card-distance {
+    grid-row: 2;
+    grid-column: 1;
+    color: #717171;
+}
+
+.card-date {
+    grid-row: 3;
+    grid-column: 1;
+    color: #717171;
+}
+
+.card-price {
+    grid-row: 4;
+    grid-column: 1;
+    justify-content: start;
+    font-weight: bold;
+}

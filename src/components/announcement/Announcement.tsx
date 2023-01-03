@@ -1,4 +1,4 @@
-import "./header.css";
+import "../header/header.css";
 
 const Announcement = () => {
     const handleClick = () => {
