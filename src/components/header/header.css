@@ -1,0 +1,135 @@
+* {
+    font-family: "Figtree", sans-serif;
+}
+
+.announcement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: unset;
+    font-weight: 600;
+    background-color: #f7f7f7;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 6%);
+    height: 64px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* width: 100%; */
+    margin: auto;
+}
+
+.announcement-container a {
+    text-decoration: underline;
+}
+
+.header-logo {
+    width: 33%;
+}
+
+.header-logo {
+    justify-content: flex-start;
+}
+
+.header-container {
+    top: 0;
+    height: 80px;
+    z-index: 10;
+    contain: size style layout;
+    contain-intrinsic-height: 80px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header-underline {
+    height: 1px;
+    width: 150vw;
+    background-color: #dddddd;
+    transform: translateX(-100px);
+    opacity: 0.6;
+}
+.header-button-search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ff385c;
+    height: 12px;
+    width: 12px;
+}
+
+.header-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 348px;
+    max-width: 375px;
+    height: 48px;
+    width: 352px;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    transition: box-shadow 0.2s ease;
+}
+
+.header-button-container:hover,
+.header-button:hover,
+.header-buttons:hover,
+.header-button-separator:hover,
+.header-button-search-icon:hover {
+    cursor: pointer;
+}
+
+.header-button-container:hover {
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.18);
+}
+.header-button {
+    background-color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 7px;
+    color: #222222;
+    opacity: 0.9;
+}
+
+.header-button-separator {
+    height: 24px;
+    width: 1px;
+    background-color: #dddddd;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button-middle {
+    margin: 7px;
+}
+
+.header-button-guests {
+    color: #717171;
+}
+
+.header-item-1 {
+    display: flex;
+}
+
+.header-item-3 {
+    justify-content: flex-end;
+}
+
+.airbnb-your-home {
+    font-family: "Figtree";
+    letter-spacing: -0.5px;
+}
